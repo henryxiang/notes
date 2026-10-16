@@ -1,6 +1,6 @@
 # U.S. Market Watch — October 16, 2026
 
-**Session:** Friday, October 16, 2026 · Prepared at approximately 8:20 AM ET · Cash market opens at 9:30 AM ET.  
+**Session:** Friday, October 16, 2026 · Prepared at approximately 8:20 AM ET · Updated after the 4:00 PM ET cash close.
 **Regime:** Hot inflation, easing Treasury yields, and continued scrutiny of debt-funded AI spending.  
 **Base case:** A mixed-to-firmer open led by the Dow and non-technology sectors, with the Nasdaq vulnerable until AI-linked credit names and semiconductors stabilize.
 
@@ -114,6 +114,61 @@ Do not anchor to futures quoted before 8:30 AM. Import prices arrive before the 
 The pre-open tone is cautiously constructive for the broad market but still fragile beneath the indexes. Lower Treasury yields and a noncommittal Fed Chair are providing relief, while the Dow's weekly gain and Thursday's small-cap strength show that investors are rotating rather than abandoning equities. The unresolved problem is AI financing: demand remains strong, but markets are no longer willing to treat every debt-funded capacity plan as equally valuable.
 
 The highest-quality read today will come from the interaction of the **10-year yield, Nasdaq-versus-Dow relative performance, regional-bank guidance, and AI-credit breadth**. A lower yield plus stabilizing semiconductors would support a relief rally. A post-data yield reversal with continued weakness in leveraged AI names would keep the week's correction active.
+
+---
+
+## 7. After-close analysis
+
+### Closing scoreboard
+
+| Instrument | Friday close | Friday move | Weekly move |
+|---|---:|---:|---:|
+| S&P 500 | **7,659.44** | **−1.1%** | **−1.9%** |
+| Dow Jones Industrial Average | **52,002.41** | **−0.3%** | **+0.7%** |
+| Nasdaq Composite | **26,140.03** | **−2.1%** | **−4.5%** |
+| Russell 2000 | **2,721.37** | **−1.7%** | **−3.0%** |
+| U.S. 10-year Treasury yield | about **5.09%** | down approximately **1 basis point** | — |
+
+The closing numbers show that the morning's constructive rotation case did not hold. The Dow again outperformed the Nasdaq, but it could not stay positive, while the Russell 2000 reversed Thursday's strength. The S&P 500 and Nasdaq both recorded their worst week since June. ([AP index recap](https://apnews.com/article/wall-street-stocks-dow-nasdaq-c27809783ae3230b44c26e5ee4bea056))
+
+This was a severe technology selloff, but not a completely indiscriminate liquidation. Slightly more than half of S&P 500 constituents declined, while 68 of the index's 75 technology stocks finished lower. Micron fell 5.6%, AMD 6.0%, Intel 5.8%, Broadcom 4.5%, Meta 3.7%, and Alphabet 2.5%. By contrast, Exxon gained 2.5% and Chevron rose 2.6%, helping energy resist the broader decline. ([AP closing report](https://apnews.com/article/stocks-markets-us-ai-oil-tech-warsh-d2655f64db7ec8ae450525d58f97b628))
+
+### Macro data strengthened the stagflationary tension
+
+September import prices rose **1.1% month over month** and **8.1% year over year**. Excluding fuel, import prices still increased 0.7% for the month and 6.0% from a year earlier. Export prices rose 2.2% for the month and 11.6% year over year. The breadth of the nonfuel increase matters because it prevents the report from being dismissed as only an oil shock. ([BLS import and export price release](https://www.dol.gov/newsroom/economicdata/ximpim_10162026.pdf))
+
+At the same time, September industrial production increased **0.7%**, beating the 0.4% consensus cited before the release. Manufacturing output rose 0.3%, utilities output jumped 3.5%, and total capacity utilization increased to **76.9%** from a revised 76.4%. The economy therefore delivered firmer real activity alongside hotter traded-goods inflation—an unfavorable mix for expectations of near-term monetary easing. ([Federal Reserve G.17 release](https://www.federalreserve.gov/releases/g17/current/default.htm))
+
+The notable cross-asset signal was that the 10-year yield nevertheless eased to about 5.09% from 5.10% late Thursday. Equities did not receive much benefit from that move. This suggests Friday's pressure was not simply a duration shock; investors were also reducing exposure to crowded semiconductor and debt-sensitive AI trades on concerns about financing costs and future returns on capital.
+
+### Earnings offered pockets of support, not enough leadership
+
+Travelers rose 1.5% after beating quarterly forecasts, while Alcoa gained 2.5%. Regional-bank reports were generally resilient beneath the headlines: M&T earned $5.04 per diluted share, with loans and deposits both higher, although its net interest margin slipped to 3.65% and its provision for credit losses increased to $135 million. ([M&T third-quarter results](https://newsroom.mtb.com/2026-10-16-M-T-Bank-Corporation-NYSE-MTB-announces-third-quarter-2026-results))
+
+Citizens reported $1.41 per share, 10% revenue growth, a 3.19% net interest margin, and lower net charge-offs. Regions reported $0.71 per share and a higher 3.68% net interest margin. Truist's GAAP results were distorted by a $1.4 billion pre-tax loss on a securities sale; its company-adjusted earnings were $1.16 per share. These results supported the view that bank fundamentals are not the center of the current selloff, but they were unable to offset technology's index weight. ([Company-release summary with SEC links](https://thefinancialcurrent.com/news/2026-10-16-truist-citizens-regions-earnings))
+
+### Morning framework: what confirmed and what failed
+
+- **Confirmed:** Dow outperformance, weak semiconductor breadth, persistent pressure in AI-linked equities, and elevated oil all remained useful signals.
+- **Failed:** Lower Treasury yields did not produce a durable Nasdaq relief rally, and Thursday's small-cap strength did not carry into Friday.
+- **Best classification:** A technology-led risk-off session with weakening broader participation—not yet a full-market liquidation, because energy held up and only slightly more than half of S&P 500 stocks declined.
+- **Risk implication:** Falling yields alone are no longer sufficient evidence for buying growth. Semiconductor breadth and the behavior of leveraged AI-infrastructure names must improve at the same time.
+
+---
+
+## 8. Session summary and next-session watch
+
+Friday closed the week with a decisive rejection of the early rotation attempt. The Dow preserved a weekly gain, but the S&P 500, Nasdaq, and Russell 2000 all finished lower for the week, and the Nasdaq's 4.5% weekly decline shows that the de-risking remained concentrated in technology. Stronger industrial output did not reassure investors because it arrived alongside another hot inflation reading, while a slightly lower 10-year yield failed to stabilize semiconductors.
+
+For the next session, the most important question is whether Friday represented capitulation within technology or the start of broader contagion. Watch for:
+
+1. **Semiconductor stabilization:** Micron, AMD, Intel, Broadcom, Nvidia, and the SOX need to stop making lower lows together.
+2. **Breadth versus index level:** Another weak Nasdaq session with resilient energy, financials, and defensives would still indicate rotation; simultaneous weakness across those groups would signal broader risk-off behavior.
+3. **The 10-year yield near 5.1%:** A renewed rise would add valuation pressure, while a further decline is constructive only if growth stocks begin responding positively.
+4. **AI-credit stress:** Continued weakness in leveraged data-center operators would confirm that financing and return-on-capital concerns remain unresolved.
+5. **Oil and geopolitical gap risk:** Elevated crude supports energy shares but also reinforces the inflation problem and creates weekend headline risk.
+
+The practical takeaway is to avoid treating the Dow's relative strength as proof that the correction is over. Friday's close leaves the burden of proof on buyers: a credible recovery requires improving technology breadth, stable credit-sensitive AI names, and a market that can respond positively to lower yields.
 
 ---
 
