@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 # Run a prompt file through Claude Code non-interactively, in auto mode.
 #
-# Usage: ./run-prompt-claude.sh [-m MODEL] [-e EFFORT] PROMPT_FILE
+# Usage: ./run-prompt-claude.sh [-m MODEL] [-e EFFORT] [-s NAME] PROMPT_FILE
 #   -m MODEL   Model alias or full name (default: opus, the latest Opus model)
 #   -e EFFORT  Reasoning effort: low, medium, high, xhigh, or max (default: medium)
+#   -s NAME    Save the session under NAME (default: session is not saved)
 #   -h         Show this help
 #
 # Examples:
 #   ./run-prompt-claude.sh prompts/pre-open-analysis.md
+#   ./run-prompt-claude.sh -s 2026-11-18-after-close prompts/after-close-analysis.md
 #   ./run-prompt-claude.sh -e high prompts/after-close-analysis.md
 #   ./run-prompt-claude.sh -m sonnet prompts/review.md
 #   ./run-prompt-claude.sh -m claude-opus-5-5 prompts/after-close-analysis.md
@@ -15,16 +17,18 @@
 set -euo pipefail
 
 usage() {
-  sed -n '2,13s/^# \{0,1\}//p' "$0"
+  sed -n '2,15s/^# \{0,1\}//p' "$0"
 }
 
 model="opus"
 effort="medium"
+session_name=""
 
-while getopts ":m:e:h" opt; do
+while getopts ":m:e:s:h" opt; do
   case "$opt" in
     m) model="$OPTARG" ;;
     e) effort="$OPTARG" ;;
+    s) session_name="$OPTARG" ;;
     h) usage; exit 0 ;;
     :) echo "Error: -$OPTARG requires a value." >&2; usage >&2; exit 2 ;;
     \?) echo "Error: unknown option -$OPTARG." >&2; usage >&2; exit 2 ;;
@@ -106,6 +110,13 @@ render='
   else empty end
 '
 
+# Sessions are not saved unless -s NAME is given.
+if [[ -n "$session_name" ]]; then
+  session_args=(--name "$session_name")
+else
+  session_args=(--no-session-persistence)
+fi
+
 # Feed the prompt on stdin so long or multi-line files are passed intact.
 # --verbose + stream-json emits every step as it happens; jq --unbuffered shows it live.
 claude -p \
@@ -114,6 +125,7 @@ claude -p \
   --effort "$effort" \
   --output-format stream-json \
   --verbose \
+  "${session_args[@]}" \
   < "$prompt_file" \
   | jq -r --unbuffered \
       --arg dim "$c_dim" --arg bold "$c_bold" --arg cyan "$c_cyan" \
